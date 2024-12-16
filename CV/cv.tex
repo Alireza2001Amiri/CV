@@ -1,0 +1,136 @@
+% LaTeX CV Template based on Awesome CV
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins
+\geometry{left=1.5cm, top=1.0cm, right=1.5cm, bottom=1.5cm, footskip=1.0cm}
+
+% Define custom colors
+\definecolor{awesome}{HTML}{2E4053} % Custom dark blue for headers
+\definecolor{highlight}{HTML}{1ABC9C} % Teal for highlights
+\definecolor{sectionbg}{HTML}{F7F9F9} % Light background for sections
+
+% Header Information
+\name{Alireza}{Amiri}
+\position{Mechatronics Engineer{\enskip\cdotp\enskip}Control Systems Specialist}
+\address{Karaj, Iran}
+\mobile{+98 901 324 6001}
+\email{alireza2001amiri@gmail.com}
+\linkedin{linkedin.com/in/alirezaamiriii}
+\quote{``Eager to innovate, learn, and solve problems with determination and teamwork."}
+
+\begin{document}
+	
+	% Header
+	\makecvheader[C]
+	
+	% Summary
+	\cvsection{Objective}
+	Eager to find and develop solutions for upcoming problems by combining innovation and hard work. Experienced in diverse fields, yet passionate about learning new skills and exploring new challenges.
+	
+	% Education
+	\cvsection{Education}
+	\cventry
+	{Master of Science in Mechatronics}
+	{K. N. Toosi University of Technology}
+	{Tehran, Iran}
+	{Sep. 2023 -- Present}
+	{}
+	{}
+	\cventry
+	{Bachelor of Science in Electrical Engineering (Control Orientation)}
+	{Shahed University}
+	{Tehran, Iran}
+	{Jul. 2019 -- Jul. 2023}
+	{
+		\begin{cvitems}
+			\item {GPA: 16.03/20}
+			\item {Thesis: Design and Implementation of a PID-based Control System for Achieving Stable Magnetic Levitation}
+		\end{cvitems}
+	}
+	
+	% Experience
+	\cvsection{Experience}
+	\cventry
+	{Maintenance and Repair Engineering Intern}
+	{MAPNA Generator Engineering \& Manufacturing Co.}
+	{Karaj, Iran}
+	{Jun. 2022 -- Sep. 2022}
+	{
+		\begin{cvitems}
+			\item {Gained insights into industrial large-scale factories and basic performance of industrial machinery.}
+			\item {Learned fault diagnosis procedures and cost-efficient problem-solving techniques.}
+			\item {Experimented with industrial control systems, including PLC and LOGO systems.}
+		\end{cvitems}
+	}
+	
+	\cventry
+	{Translator}
+	{Haftonim Publication}
+	{Remote}
+	{Mar. 2021 -- Jul. 2021}
+	{
+		\begin{cvitems}
+			\item {Translated a scientific book, "Archimedes and the Door of Science," for teenage readers.}
+			\item {Developed skills in literary translation and adapted text to Persian.}
+		\end{cvitems}
+	}
+	
+	\cventry
+	{NFT Marketing}
+	{Self-Employed}
+	{Remote}
+	{Jan. 2022 -- Jul. 2022}
+	{
+		\begin{cvitems}
+			\item {Launched and marketed "Callipen," a calligraphy artwork brand.}
+			\item {Achieved international sales and developed cross-cultural communication skills.}
+		\end{cvitems}
+	}
+	
+	% Projects
+	\cvsection{Selected Projects}
+	\cvproject
+	{Magnetic Levitation}
+	{
+		\begin{cvitems}
+			\item {Developed an Arduino-based PID controller to achieve stable magnetic levitation.}
+			\item {Experimented with PID and H-infinity control methods using MATLAB and Simulink.}
+			\item {Designed and optimized an electrical circuit to support system stability.}
+		\end{cvitems}
+	}
+	\cvproject
+	{Speech Emotion Detection}
+	{
+		\begin{cvitems}
+			\item {Trained a machine learning model to classify emotions and gender from Persian speech data.}
+			\item {Achieved 60\% accuracy in the best-case scenario.}
+		\end{cvitems}
+	}
+	\cvproject
+	{ECG Signal Monitoring}
+	{
+		\begin{cvitems}
+			\item {Designed an ESP32-based system for recording ECG signals and heart rates.}
+			\item {Collaborated on biomedical device development, learning about medical sensors.}
+		\end{cvitems}
+	}
+	
+	% Skills
+	\cvsection{Skills}
+	\cvskill{Programming Languages}{Python, Arduino, Verilog, C++}
+	\cvskill{Engineering Tools}{MATLAB, Simulink, Proteus, ISE}
+	\cvskill{Soft Skills}{Problem Solving, Time Management, Logical Thinking, Teamwork, Communication}
+	
+	% Languages
+	\cvsection{Languages}
+	\cvskill{Persian}{Native}
+	\cvskill{English}{Fluent}
+	\cvskill{Arabic}{Conversational}
+	
+	% Footer
+	\makecvfooter
+	{\today}
+	{Alireza Amiri~~~·~~~CV}
+	{\thepage}
+	
+\end{document}
