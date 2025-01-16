@@ -1,0 +1,11 @@
+
+CV/cv.log
+CV/cv.synctex.gz
+CV/document.log
+CV/document.pdf
+CV/document.synctex.gz
+*.gz
+*.out
+*.aux
+*.log
+/CV/Other files
